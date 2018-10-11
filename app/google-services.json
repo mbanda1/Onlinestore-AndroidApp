@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "504441104469",
+    "firebase_url": "https://biz-poin.firebaseio.com",
+    "project_id": "biz-poin",
+    "storage_bucket": "biz-poin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504441104469:android:ecff9000a137a54e",
+        "android_client_info": {
+          "package_name": "com.cyphertech.biashara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504441104469-d6e4ulpka76qgdk7gqab39jh47ompj6d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cyphertech.biashara",
+            "certificate_hash": "9efa758d2c775cae6dc37aacfad1007859646ebf"
+          }
+        },
+        {
+          "client_id": "504441104469-mrl15t4s5701gcbropcooc7euvr1bfs8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cyphertech.biashara",
+            "certificate_hash": "b3751b13121d929b9c7f3c6712b96cf68ecc04d5"
+          }
+        },
+        {
+          "client_id": "504441104469-8k1k0e8dev24h39d9aums46b6q6rhu3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlDFFXpzIyuYiKY2K9Mh7cLZ84Jm8SfyU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504441104469-8k1k0e8dev24h39d9aums46b6q6rhu3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:id="@+id/containerCheckOut"
+    tools:context=".Account.ChooseAddress_Account2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/selectetShippingAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_red_dark"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:text="Selected Shipping Address"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background" />
+
+    <ScrollView
+        android:visibility="gone"
+           android:id="@+id/proceed_ToPayment_scrooler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/finalPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="5dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorAccent"
+            android:text="KSH: 450.00"/>
+
+        <TextView
+            android:id="@+id/proceed_ToPayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+             android:gravity="center"
+            android:background="@color/gen_black"
+            android:padding="10dp"
+            android:text="Proceed to Payment"
+            android:textStyle="bold"
+            android:textColor="@color/gen_white" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/selectedAddress"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/address_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/address_phone1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:hint="0725252525"
+                android:inputType="phone"
+                android:layout_marginRight="20dp"
+                android:textSize="17dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/address_address1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="kenya mpya 256 Busia the place, opposite Tuskies Supermerket"
+                android:inputType="textMultiLine"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <!--kkkkkkk -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/address_region1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Region"
+                android:layout_weight="1"
+                android:textSize="19dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/address_region12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nairobi"
+                android:textSize="17dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/address_station1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pick station"
+                android:textStyle="bold"
+                android:textSize="19dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/address_station12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pipline Lounge"
+                android:textSize="17dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="4dp"
+            android:background="#c0c0c0"
+            android:layerType="software"
+            android:src="@drawable/dotted"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/address_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Change"
+                android:layout_weight="3"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

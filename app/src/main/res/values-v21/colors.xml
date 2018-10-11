@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7267f6</color>
+    <color name="colorPrimaryDark">#f1f1f8</color>
+    <color name="colorAccent">#fe400c</color>
+
+
+    <color name="stay_color">#999999</color>
+
+    <color name="gen_black">#000000</color>
+    <color name="gen_white">#ffffff</color>
+    <color name="green_light">#c7f4c9</color>
+    <color name="grey_light">#ede3e3</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#fdc8d4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#ff6d8e</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+
+
+
+    <color name="viewBg">#f1f5f8</color>
+
+    <color name="album_title">#cee9f6</color>
+
+</resources>

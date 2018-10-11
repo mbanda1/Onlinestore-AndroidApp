@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:id="@+id/viewContainer"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressMpesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+         android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/cartTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="KSH: 30,000.00"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="Order List"
+                android:textColor="@color/gen_black" />
+
+        </LinearLayout>
+
+     </LinearLayout>
+
+
+    <!--- ORDER lIST dISPLAY -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/album_title"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/cartName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="Black shoe"
+            android:background="@color/album_title"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/cartQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/album_title"
+            android:hint="1" />
+
+        <TextView
+            android:id="@+id/cartPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="400.00 each" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+         android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* Select your mode of Payment \n For Mpesa PAYBIL no. > 123456 \n For Airtel PAYBILL no. > 456123 "
+            android:textAlignment="center"
+             android:textSize="16dp"
+            android:padding="10dp"
+            android:textColor="@color/gen_black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"
+            android:padding="2dp"
+            android:gravity="center"
+            android:text="NOTE: Account no. is your Phone Number" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:orientation="horizontal"
+            android:padding="10dp"
+            android:gravity="center"
+            android:weightSum="2">
+
+            <TextView
+                 android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                 android:layout_weight="1"
+                android:background="@drawable/round_corner_text"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                 android:text="Mpesa"
+                android:textSize="14dp" />
+
+            <TextView
+                 android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/round_corner_text"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:text="Airtel Money"
+                android:textSize="14dp" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearMpesa"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <EditText
+                android:gravity="center"
+                 android:id="@+id/codeEnter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.3"
+                android:maxLines="1"
+                android:maxLength="12"
+                android:hint="Payment code"/>
+
+            <TextView
+                 android:id="@+id/checkboxCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:onClick="payedOrNot"
+                android:background="@color/gen_black"
+                android:textColor="@color/gen_white"
+                android:layout_weight=".7"
+                android:gravity="center"
+                android:text="I have paid"/>
+
+        </LinearLayout>
+
+
+
+            <TextView
+                android:visibility="invisible"
+                   android:id="@+id/cheOutButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonNegativeColor"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Complete And CheckOut"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:maxLength="7"
+                android:layout_margin="10dp"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CypherTech Thanks You"
+            android:padding="10dp"
+            android:gravity="center"/>
+
+
+
+
+
+
+        <!--<include-->
+             <!--layout="@layout/mobile_payment_descriptions"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+
+
+
+
+    </LinearLayout>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+

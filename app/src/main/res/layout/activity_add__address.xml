@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/addAddressMain"
+    android:layout_height="match_parent"
+     tools:context=".Address.Add_Address"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/addAddressToolbar"
+            android:layout_width="match_parent"
+            app:title="Add Address"
+            app:titleTextColor="@color/gen_white"
+            android:layout_height="?android:attr/actionBarSize"
+            app:navigationIcon="?android:attr/homeAsUpIndicator" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/activity_add"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/TextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full name"
+                android:inputType="text"
+                android:maxLines="1"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <EditText
+                android:id="@+id/TextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone number"
+                android:inputType="phone"
+                android:maxLength="13"
+                android:maxLines="1"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <EditText
+                android:id="@+id/TextAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:inputType="textPostalAddress"
+                android:maxLines="1"
+                android:layout_marginTop="10dp"
+                />
+
+        <Spinner
+            android:id="@+id/RegionSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:autofillHints="Your Region"
+             android:popupBackground="@color/album_title"
+            android:background="@drawable/spinner_background"/>
+
+        <Spinner
+            android:id="@+id/LocationSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+             android:background="@drawable/spinner_background"
+            />
+
+
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/appCompatButtonRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/cardview_dark_background"
+            android:padding="20dp"
+            android:text="Capture Address"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+        <ProgressBar
+            android:id="@+id/progressBar_loadSpiner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

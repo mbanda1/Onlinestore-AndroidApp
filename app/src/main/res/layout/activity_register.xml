@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Account.LogingOperations.RegisterActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/regtoolbar"
+            android:layout_width="match_parent"
+            app:title="Register Now"
+            app:titleTextColor="@color/gen_white"
+            android:layout_height="?android:attr/actionBarSize"
+            app:navigationIcon="?android:attr/homeAsUpIndicator" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".12"
+                android:background="@color/colorPrimary"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3">
+
+                <ProgressBar
+                    android:visibility="invisible"
+                     android:id="@+id/progressBarRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/phone"
+                    tools:ignore="ContentDescription" />
+
+
+            </RelativeLayout>
+
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="15dp"
+                    app:cardBackgroundColor="#FBF7F7"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Use Sim In this Phone for Vilification !"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="30dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="25dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/baseline_phone_black_18dp" />
+
+                            <Spinner
+                                android:id="@+id/snipper"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:prompt="@string/kenya_code"
+                                android:entries="@array/kenya_code"/>
+
+                            <EditText
+                                android:id="@+id/numbered"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:drawablePadding="15dp"
+                                android:maxLength="9"
+                                android:hint="722002200"
+                                android:inputType="phone" />
+
+
+
+                            <ImageView
+                                android:id="@+id/verifiedsign"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="15dp"
+                                android:src="@drawable/checkmark"
+                                android:visibility="invisible" />
+
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/verificationed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="25dp"
+                            android:hint="Enter Code"
+                            android:inputType="number"
+                            android:padding="10dp"
+                            android:visibility="gone" />
+
+                        <!--<android.support.design.widget.FloatingActionButton-->
+                        <!--android:id="@+id/sendverifybt"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:layout_margin="20dp"-->
+                        <!--android:src="@drawable/baseline_forward_black_18dp"-->
+                        <!--android:tag="@string/tag_send" />-->
+                        <TextView
+                            android:id="@+id/sendverifybt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="15dp"
+                            android:background="@color/common_google_signin_btn_text_dark_focused"
+                            android:padding="10dp"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:tag="@string/tag_send"
+                            android:text="SEND"
+                            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@+id/timertv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="25sp"
+                            android:clickable="true"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:visibility="gone"
+                            android:id="@+id/idPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:hint="PASSWORD"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:inputType="text"
+                            android:layout_margin="25sp"
+                            android:textSize="20sp" />
+
+
+                        <TextView
+                            android:visibility="invisible"
+                            android:id="@+id/idRegister"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="25sp"
+                            android:background="@android:color/holo_red_dark"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Register Now"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/backToLogin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                             android:gravity="center"
+                            android:onClick="backToLogin1"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/round_corner_text"
+                            android:padding="5dp"
+                            android:text="Login"
+                             android:textColor="@color/gen_black"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

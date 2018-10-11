@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/addNew_address"
+         android:title="Add New"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/a_More"
+        android:icon="@drawable/baseline_more_vert_white_18dp"
+        android:title="More"
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+                android:id="@+id/logedIn_home"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:icon="@drawable/outline_home_black_18dp"
+                android:title="HOME"/>
+
+            <item
+                android:id="@+id/logedIn_home_account"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:icon="@drawable/outline_account_circle_black_18dp"
+                android:title="ACCOUNT"/>
+
+            <item
+                android:id="@+id/logedIn_home_logout"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:icon="@drawable/baseline_lock_black_18dp"
+                android:title="Log Out"/>
+
+            <item
+                android:id="@+id/logedIn_home_saved"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:icon="@mipmap/ic_favorite_border_black_18dp"
+                android:title="Saved"/>
+
+        </menu>
+    </item>
+
+
+    <!--<item-->
+        <!--android:id="@+id/add_newA"-->
+        <!--android:icon="@drawable/baseline_more_vert_white_18dp"-->
+        <!--android:title="More"-->
+        <!--app:showAsAction="always">-->
+
+        <!--<menu>-->
+
+            <!--<item-->
+                <!--android:id="@+id/not_home"-->
+                <!--android:orderInCategory="100"-->
+                <!--app:showAsAction="never"-->
+                <!--android:icon="@drawable/outline_home_black_18dp"-->
+                <!--android:title="HOME"/>-->
+
+            <!--<item-->
+                <!--android:id="@+id/not_login"-->
+                <!--android:orderInCategory="100"-->
+                <!--app:showAsAction="never"-->
+                <!--android:icon="@drawable/baseline_lock_open_black_18dp"-->
+                <!--android:title="ACCOUNT"/>-->
+
+            <!--<item-->
+                <!--android:id="@+id/not_account"-->
+                <!--android:orderInCategory="100"-->
+                <!--app:showAsAction="never"-->
+                <!--android:icon="@drawable/outline_account_circle_black_18dp"-->
+                <!--android:title="Log In"/>-->
+
+            <!--<item-->
+                <!--android:id="@+id/not_saved"-->
+                <!--android:orderInCategory="100"-->
+                <!--app:showAsAction="never"-->
+                <!--android:icon="@mipmap/ic_favorite_border_black_18dp"-->
+                <!--android:title="Saved"/>-->
+
+        <!--</menu>-->
+    <!--</item>-->
+
+
+
+</menu>

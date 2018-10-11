@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cyphertech.biashara">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".product.Brands"
+            android:parentActivityName=".MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".cart.Main_cart"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".checkOut.Address"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".cart.Main_cart">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".cart.Main_cart" />
+        </activity>
+        <activity android:name=".Account.personal_Info"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".Account.Change_password"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Account.ChooseAddress_Account2"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".product.SingleBrand_Details"
+            android:parentActivityName=".product.Brands">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".product.Brands" />
+        </activity>
+        <activity
+            android:name=".Account.LogingOperations.Login_If"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".Address.Add_Address"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Frag_2.My_order_Activities"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".checkOut.ChooseAddress_checkOut1"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".TopDeal.TopDeal_Three" />
+        <activity
+            android:name=".Account.LogingOperations.RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".product.SearchProducts"
+            android:theme="@style/AppTheme.NoActionBar"
+        />
+    </application>
+
+</manifest>

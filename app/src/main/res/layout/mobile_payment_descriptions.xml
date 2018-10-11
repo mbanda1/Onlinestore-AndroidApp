@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:paddingEnd="5dp"
+    tools:ignore="RtlSymmetry">
+
+    <!--&lt;!&ndash; ************************SAFCOM ****************************&ndash;&gt;-->
+
+    <!--<LinearLayout-->
+         <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+           <!--android:id="@+id/mpesa_"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_margin="7dp">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/green_light"-->
+            <!--android:padding="10dp"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:maxLines="3"-->
+                <!--android:scrollHorizontally="false"-->
+                <!--android:text="@string/mpesa"-->
+                <!--android:textSize="15dp"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="10dp"-->
+                <!--android:padding="5dp"-->
+                <!--android:text="00000000" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/mpesa2"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="10dp"-->
+                <!--android:padding="5dp"-->
+                <!--android:text="RXER56Y"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/mpesa3"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginStart="10dp"-->
+                    <!--android:text="KSH: 5,000"-->
+                    <!--android:textStyle="bold" />-->
+            <!--</LinearLayout>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/mpesa4"-->
+                <!--android:textStyle="bold" />-->
+
+        <!--</LinearLayout>-->
+
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/payedSAF"-->
+             <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:background="@android:color/holo_orange_dark"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="10dp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_margin="15dp"-->
+            <!--android:text="I have Paid" />-->
+
+    <!--</LinearLayout>-->
+
+
+
+
+    <!--&lt;!&ndash; ************************AirTel ****************************&ndash;&gt;-->
+    <!--<LinearLayout-->
+        <!--android:visibility="gone"-->
+         <!--android:id="@+id/airtel_"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_margin="7dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/bg_screen1"-->
+            <!--android:padding="10dp"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:maxLines="3"-->
+                <!--android:scrollHorizontally="false"-->
+                <!--android:text="@string/mpesa"-->
+                <!--android:textSize="15dp"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="10dp"-->
+                <!--android:padding="5dp"-->
+                <!--android:text="00000000" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/mpesa2"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="10dp"-->
+                <!--android:padding="5dp"-->
+                <!--android:text="RXER56Y"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/mpesa3"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginStart="10dp"-->
+                    <!--android:text="KSH: 5,000"-->
+                    <!--android:textStyle="bold" />-->
+            <!--</LinearLayout>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/mpesa4"-->
+                <!--android:textStyle="bold" />-->
+
+
+        <!--</LinearLayout>-->
+        <!--<TextView-->
+            <!--android:id="@+id/payedARL"-->
+             <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:background="@android:color/holo_orange_dark"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="10dp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_margin="15dp"-->
+            <!--android:text="I have Paid" />-->
+    <!--</LinearLayout>-->
+
+    <!--&lt;!&ndash; ************************Telkom ****************************&ndash;&gt;-->
+
+
+</android.support.v7.widget.LinearLayoutCompat>

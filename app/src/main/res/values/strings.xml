@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="mpesa"> Click on M-PESA \n Select Lipa na M-PESA \n Select Pay Bill and enter this :- </string>
+    <string name="mpesa2"> Click Business number and enter this:- </string>
+     <string name="mpesa3">Enter correct amount. => </string>
+    <string name="mpesa4"> Enter pin No. and Send </string>
+
+    <!--- AirTell -->
+    <string name="airtel"> Click Airtel \n Select airtel money \n Select make payments :- </string>
+    <string name="airtel1"> Click on Other payments </string>
+    <string name="airtel2"> Enter Business number. :>- </string>
+    <string name="airtel3">Enter correct amount. => </string>
+    <string name="airtel4"> Enter pin No. and Send </string>
+
+
+
+    <string name="telcom"> Select Lipa na Telkom kash \n Select Pay Bill \n Enter the Business Number 7888885 </string>
+
+    <string name="cyphetTech"> Thanks for shopping with Biashara Point \n cycherTech Limited</string>
+    <string name="tag_send">SEND</string>
+    <string name="tag_code"> Send Code </string>
+    <string name="tag_verify">VERIFY</string>
+
+    <string name="kenya_code"> +254 </string>
+    <string-array name="kenya_code">
+        <item> +254 </item>
+    </string-array>
+
+    <string name="registrationDialogue"> Looks like you alredy got account ! </string>
+    <string name="networkFailure">Looks Like we\'re offLine !</string>
+
+</resources>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Account">
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_weight="10"
+            android:background="@color/colorAccent">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/red2" />
+
+            <TextView
+                android:id="@+id/nameLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Your name"
+                android:textColorHint="@color/cardview_dark_background"
+                android:layout_gravity="right"
+                android:background="#ffffff"
+                android:padding="3dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"/>
+
+        </RelativeLayout>
+
+        <!-- -->
+
+
+
+
+
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical" >
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Orders"
+                android:textAlignment="viewStart"
+                android:textStyle="bold"
+            android:textSize="20dp"
+                android:padding="5dp"/>
+
+            <LinearLayout
+                android:id="@+id/tabs1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/grey_light"
+                app:tabContentStart="10dp"
+                app:tabMode="fixed">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/border_bottom_below"
+                        android:id="@+id/classPending">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/ic_payment_black_24dp"
+                            android:layout_alignParentBottom="true"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pending"
+                            android:layout_alignParentBottom="true"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/border_bottom_below"
+                        android:id="@+id/classInTransit">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/ic_payment_black_24dp"
+                            android:layout_alignParentBottom="true"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="In Transit"
+                            android:layout_alignParentBottom="true"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/border_bottom_below"
+                        android:id="@+id/classCompleted">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/ic_payment_black_24dp"
+                            android:layout_alignParentBottom="true"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Completed"
+                            android:layout_alignParentBottom="true"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Favourites"
+                android:textAlignment="viewStart"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wish List"
+                android:padding="10dp"
+                android:textSize="17dp"
+                android:drawablePadding="10dp"
+                android:lines="1"
+                android:background="@color/colorPrimaryDark"
+                android:drawableRight="@drawable/baseline_keyboard_arrow_right_white_18dp"
+                android:drawableLeft="@drawable/ic_menu_gallery"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Viewed Goodss"
+                android:padding="10dp"
+                android:textSize="17dp"
+                android:drawablePadding="10dp"
+                android:lines="1"
+                android:background="@color/colorPrimaryDark"
+                android:drawableRight="@drawable/baseline_keyboard_arrow_right_white_18dp"
+                android:drawableLeft="@drawable/ic_menu_gallery"/>
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Settings"
+                android:textAlignment="viewStart"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/address_personalInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personal info"
+                android:padding="10dp"
+                android:textSize="17dp"
+                android:drawablePadding="10dp"
+                android:lines="1"
+                android:background="@color/colorPrimaryDark"
+                android:drawableRight="@drawable/baseline_keyboard_arrow_right_white_18dp"
+                android:drawableLeft="@drawable/baseline_face_black_18dp"/>
+
+            <TextView
+                android:id="@+id/address_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:drawableLeft="@drawable/ic_menu_gallery"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/baseline_keyboard_arrow_right_white_18dp"
+                android:lines="1"
+                android:padding="10dp"
+                android:text="Address"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/address_changePassoworddB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:drawableLeft="@drawable/ic_menu_gallery"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/baseline_keyboard_arrow_right_white_18dp"
+                android:lines="1"
+                android:padding="10dp"
+                android:text="Change Password"
+                android:textSize="17dp" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/address_LogOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:drawableLeft="@drawable/baseline_lock_black_18dp"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/baseline_keyboard_arrow_right_white_18dp"
+                android:lines="1"
+                android:padding="10dp"
+                android:text="Logout"
+                android:textSize="15dp" />
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+             <!-- this i for holding our tab layout difined somewehre in this view -->
+        <!--<include layout="@layout/content_main" />-->
+
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v4.widget.NestedScrollView>
+
+

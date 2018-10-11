@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recyclerview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+       card_view:cardCornerRadius="2dp" >
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <ProgressBar
+           android:id="@+id/brandsProgress"
+           android:visibility="gone"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:progressDrawable="@drawable/custom_progress_bar"
+           android:layout_centerInParent="true"/>
+
+<LinearLayout
+    android:id="@+id/layout_item"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+ android:orientation="vertical">
+
+
+<!-- <com.facebook.drawee.view.SimpleDraweeView
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/thumbnail"
+    android:layout_width="match_parent"
+    android:layout_height="200.0dp"
+    fresco:placeholderImage="@color/stay_color" /> -->
+
+    <ImageView
+        android:id="@+id/product_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/album_cover_height"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:focusable="true" />
+    <!--         android:background="?attr/selectableItemBackground"   -->
+
+
+<LinearLayout android:id="@+id/layout_item_desc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="4dp"
+    android:weightSum="2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1.8">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:text="Item Name "
+            android:textSize="10dp"
+            android:textStyle="bold"/>
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/description"
+            android:text="Item descriptions"
+            android:maxLines="2"
+            android:scrollHorizontally="false"
+            android:textSize="10dp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/price"
+                android:text="Rs. 8,999"
+                android:textSize="12dp"
+                android:textColor="#4CAF50"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/album_title"
+                android:padding="2dp"
+                android:text="30 % off"
+                android:textColor="@color/colorAccent"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/specifications"
+            android:text="bullets"
+            android:textSize="12dp"
+            android:visibility="invisible"
+            android:textColor="#4CAF50"/>
+
+
+    </LinearLayout>
+    <ImageView android:id="@+id/overflow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/ic_favorite_border_black_18dp"/>
+</LinearLayout>
+</LinearLayout>
+
+   </RelativeLayout>
+
+    </android.support.v7.widget.CardView>

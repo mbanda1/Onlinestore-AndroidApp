@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/cart_"
+        android:icon="@drawable/ic_menu_notifications"
+        android:title="cart"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/a_More"
+        android:icon="@drawable/baseline_more_vert_white_18dp"
+        android:title="More"
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+                android:id="@+id/home_search"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:icon="@drawable/baseline_search_black_18dp"
+                 android:title="Search"/>
+
+            <item
+                android:id="@+id/home_nt_login"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:icon="@drawable/baseline_lock_open_black_18dp"
+                android:title="Sign In"/>
+
+            <item
+                android:id="@+id/home_nt_my_orders"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:icon="@drawable/baseline_motorcycle_black_18dp"
+                android:title="My orders"/>
+
+
+        </menu>
+    </item>
+
+</menu>
