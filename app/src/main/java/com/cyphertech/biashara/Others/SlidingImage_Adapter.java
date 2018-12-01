@@ -2,7 +2,6 @@ package com.cyphertech.biashara.Others;
 
 import android.content.Context;
 import android.os.Parcelable;
-import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +10,8 @@ import android.widget.ImageView;
 import com.cyphertech.biashara.R;
 
 import java.util.ArrayList;
+
+import androidx.viewpager.widget.PagerAdapter;
 
 public class SlidingImage_Adapter extends PagerAdapter {
 

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
-
-<android.support.v7.widget.CardView
+<androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:id="@+id/recyclerview"
@@ -27,7 +24,8 @@
             android:layout_height="200.0dp"
             fresco:placeholderImage="@color/stay_color" />
 
-        <LinearLayout android:id="@+id/layout_item_desc"
+        <LinearLayout
+            android:id="@+id/layout_item_desc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -62,4 +60,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</android.support.v7.widget.CardView>
+</androidx.cardview.widget.CardView>

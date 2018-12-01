@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -19,13 +20,13 @@
             android:textSize="20dp"
             android:gravity="center"/>
 
-     <android.support.v7.widget.CardView
+     <androidx.cardview.widget.CardView
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:layout_marginHorizontal="10dp"
        android:gravity="center">
 
-      <android.support.v4.view.ViewPager
+      <androidx.viewpager.widget.ViewPager
           android:id="@+id/pager"
           android:layout_width="wrap_content"
           android:layout_height="100dp"
@@ -44,7 +45,7 @@
           app:pageColor="#fff"
           app:snap="false" />
 
-   </android.support.v7.widget.CardView>
+   </androidx.cardview.widget.CardView>
 
    <TextView
        android:id="@+id/letsgo"
@@ -59,4 +60,4 @@
        android:text="Find Out" />
 
 
-</android.support.v7.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -4,9 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
+ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -23,6 +21,9 @@ import com.cyphertech.biashara.Account.utils.sharedPrefrence;
 import com.cyphertech.biashara.MainActivity;
 import com.cyphertech.biashara.R;
 
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
 import static com.cyphertech.biashara.checkOut.Address1_Adapter.ADDRESS_;
 import static com.cyphertech.biashara.checkOut.Address1_Adapter.FINAL_PRICE;
 import static com.cyphertech.biashara.checkOut.Address1_Adapter.NAME_;
@@ -30,7 +31,7 @@ import static com.cyphertech.biashara.checkOut.Address1_Adapter.PHONE_;
 import static com.cyphertech.biashara.checkOut.Address1_Adapter.REGION_;
 import static com.cyphertech.biashara.checkOut.Address1_Adapter.STATION_;
 
-public class Address_ extends Fragment  {
+public class Address_ extends Fragment {
 
 
      ScrollView proccedToPayment;

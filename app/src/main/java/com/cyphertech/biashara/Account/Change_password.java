@@ -2,11 +2,12 @@ package com.cyphertech.biashara.Account;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
 import com.cyphertech.biashara.Account.LogingOperations.Login_If;
 import com.cyphertech.biashara.Account.utils.sharedPrefrence;
 import com.cyphertech.biashara.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Change_password extends AppCompatActivity {
 
