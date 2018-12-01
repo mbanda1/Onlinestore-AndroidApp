@@ -3,9 +3,6 @@ package com.cyphertech.biashara.Fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,6 +17,10 @@ import com.cyphertech.biashara.Account.utils.sharedPrefrence;
 import com.cyphertech.biashara.Frag_2.My_order_Activities;
 import com.cyphertech.biashara.MainActivity;
 import com.cyphertech.biashara.R;
+import com.google.android.material.tabs.TabLayout;
+
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
 
 /**
  * A simple {@link Fragment} subclass.

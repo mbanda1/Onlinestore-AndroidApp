@@ -3,10 +3,6 @@ package com.cyphertech.biashara.Account;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
-import android.support.design.widget.TextInputEditText;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
@@ -24,12 +20,17 @@ import com.cyphertech.biashara.Account.LogingOperations.Login_If;
 import com.cyphertech.biashara.Account.utils.sharedPrefrence;
 import com.cyphertech.biashara.Account.utils.volleyRequestQue;
 import com.cyphertech.biashara.R;
+import com.google.android.material.snackbar.Snackbar;
+import com.google.android.material.textfield.TextInputEditText;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 public class personal_Info extends AppCompatActivity {  //implements View.OnClickListener {
 

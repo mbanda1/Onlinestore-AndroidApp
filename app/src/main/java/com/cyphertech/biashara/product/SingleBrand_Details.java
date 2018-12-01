@@ -3,8 +3,7 @@ package com.cyphertech.biashara.product;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.support.v4.app.NavUtils;
-import android.support.v7.app.AppCompatActivity;
+
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -20,6 +19,9 @@ import com.cyphertech.biashara.cart.cartArray;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.view.SimpleDraweeView;
 import com.squareup.picasso.Picasso;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NavUtils;
 
 import static com.cyphertech.biashara.cart.NotificationCountSetClass.setAddToCart;
 import static com.cyphertech.biashara.cart.NotificationCountSetClass.setNotifyCount;

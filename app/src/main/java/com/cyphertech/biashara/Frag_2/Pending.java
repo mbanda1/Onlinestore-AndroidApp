@@ -4,8 +4,7 @@ package com.cyphertech.biashara.Frag_2;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
+ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -13,6 +12,8 @@ import android.widget.TextView;
 import com.cyphertech.biashara.Account.LogingOperations.Login_If;
 import com.cyphertech.biashara.Account.utils.sharedPrefrence;
 import com.cyphertech.biashara.R;
+
+import androidx.fragment.app.Fragment;
 
 /**
  * A simple {@link Fragment} subclass.

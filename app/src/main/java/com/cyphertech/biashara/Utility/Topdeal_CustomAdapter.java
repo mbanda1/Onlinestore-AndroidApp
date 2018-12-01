@@ -1,7 +1,6 @@
 package com.cyphertech.biashara.Utility;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +12,8 @@ import com.cyphertech.biashara.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 public class Topdeal_CustomAdapter extends RecyclerView.Adapter<Topdeal_CustomAdapter.ViewHolder> {
 

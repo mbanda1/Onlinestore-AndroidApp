@@ -10,10 +10,11 @@ import android.graphics.PixelFormat;
 import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
 
 import com.cyphertech.biashara.R;
+
+import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
 
 public class BadgeDrawable extends Drawable {
 

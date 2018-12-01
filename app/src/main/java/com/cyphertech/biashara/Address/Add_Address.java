@@ -2,10 +2,6 @@ package com.cyphertech.biashara.Address;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.AppCompatButton;
-import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -31,6 +27,7 @@ import com.cyphertech.biashara.Account.utils.sharedPrefrence;
 import com.cyphertech.biashara.Account.utils.volleyRequestQue;
 import com.cyphertech.biashara.MainActivity;
 import com.cyphertech.biashara.R;
+import com.google.android.material.snackbar.Snackbar;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -42,6 +39,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
+import androidx.appcompat.widget.Toolbar;
 
 public class Add_Address extends AppCompatActivity {
 

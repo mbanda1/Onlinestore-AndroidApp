@@ -1,7 +1,6 @@
 package com.cyphertech.biashara.Account;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,6 +22,8 @@ import com.cyphertech.biashara.R;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 public class Address2_Adapter extends RecyclerView.Adapter<Address2_Adapter.ViewHolder>{
 

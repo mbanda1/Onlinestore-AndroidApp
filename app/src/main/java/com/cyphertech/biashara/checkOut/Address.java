@@ -2,13 +2,6 @@ package com.cyphertech.biashara.checkOut;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.app.NavUtils;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -19,10 +12,18 @@ import com.cyphertech.biashara.Account.utils.sharedPrefrence;
 import com.cyphertech.biashara.Others.ViewPager_Scroll_LeftRight;
 import com.cyphertech.biashara.R;
 import com.cyphertech.biashara.product.Album;
+import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NavUtils;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 public class Address extends AppCompatActivity implements Address_.OnButtonClickListener {
 

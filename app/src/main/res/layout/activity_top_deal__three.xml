@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
          android:layout_weight="4"
         android:name="com.cyphertech.biashara.TopDeal.TopDeal_One"
-        />
+        tools:layout="@layout/activity_top_deal__one" />
 
     <FrameLayout
         android:id="@+id/topdealThree"
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:name="com.cyphertech.biashara.TopDeal.TopDeal_two"
-        />
+        tools:layout="@layout/top_deal_two" />
     </FrameLayout>
 
 </LinearLayout>
