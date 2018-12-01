@@ -5,106 +5,16 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598f4dea-241c-44ef-a018-3848d932d5a5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Account/Address2_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Account/Address2_Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Account/Change_password.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Account/Change_password.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Account/ChooseAddress_Account2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Account/ChooseAddress_Account2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Account/LogingOperations/Login_If.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Account/LogingOperations/Login_If.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Account/LogingOperations/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Account/LogingOperations/RegisterActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Account/personal_Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Account/personal_Info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Address/Add_Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Address/Add_Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Address/RegionLocation_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Address/RegionLocation_Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Frag_2/My_order_Activities.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Frag_2/My_order_Activities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Frag_2/Pending.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Frag_2/Pending.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Frag_2/PendingOrder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Frag_2/PendingOrder2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Fragments/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Fragments/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Fragments/Categories.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Fragments/Categories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Fragments/TopDeals.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Fragments/TopDeals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Others/ProgressHUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Others/ProgressHUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Others/SlidingImage_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Others/SlidingImage_Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Others/ViewPager_ScrollDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Others/ViewPager_ScrollDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Others/ViewPager_Scroll_LeftRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Others/ViewPager_Scroll_LeftRight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/TopDeal/SingleCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/TopDeal/SingleCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/TopDeal/TopDeal_One.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/TopDeal/TopDeal_One.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/TopDeal/TopDeal_Three.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/TopDeal/TopDeal_Three.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/TopDeal/TopDeal_two.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/TopDeal/TopDeal_two.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Utility/Categories_customAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Utility/Categories_customAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Utility/Topdeal_CustomAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Utility/Topdeal_CustomAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Utility/Try_topDeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/Utility/Try_topDeal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/cart/BadgeDrawable.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/cart/BadgeDrawable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/cart/Main_cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/cart/Main_cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/checkOut/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/checkOut/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/checkOut/Address1_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/checkOut/Address1_Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/checkOut/Address_.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/checkOut/Address_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/checkOut/ChooseAddress_checkOut1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/checkOut/ChooseAddress_checkOut1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/checkOut/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/checkOut/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/checkOut/Payment_primary.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/checkOut/Payment_primary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/checkOut/Shipment_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/checkOut/Shipment_Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/product/Brands.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/product/Brands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/product/Brands_CustomAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/product/Brands_CustomAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/product/SearchProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/product/SearchProducts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/product/SingleBrand_Details.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cyphertech/biashara/product/SingleBrand_Details.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/___content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/___content_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/__album_card.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/__album_card.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_add__address.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add__address.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_address.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_address.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_address_account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_address_account.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_address_detailss.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_address_detailss.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_brands.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_brands.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_change_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_change_password.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_choose_an__address.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_choose_an__address.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login__if.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login__if.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_cart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_cart.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pending__order.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pending__order.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pending_order2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pending_order2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_personal__info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_personal__info.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search_products.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search_products.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_top_deal__one.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_top_deal__one.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_top_deal__three.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_top_deal__three.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/alert_dialaog_closier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/alert_dialaog_closier.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_address.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_address.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cart_item_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cart_item_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_address.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_address.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_pending_prder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_pending_prder.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_account.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_categories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_categories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_infiltrate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_infiltrate.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_payment_primary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_payment_primary.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_top_deals.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_top_deals.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_cartlist_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_cartlist_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/mobile_payment_descriptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/mobile_payment_descriptions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/progress_hud.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/progress_hud.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/single_address.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/single_address.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/single_brand.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/single_brand.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/single_category.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/single_category.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/single_topdeal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/single_topdeal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/singup_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/singup_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/top_deal_two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/top_deal_two.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v21/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-v21/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-    </list>
+    <list default="true" id="598f4dea-241c-44ef-a018-3848d932d5a5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -160,13 +70,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="text-editor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="android-designer2">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -2493,7 +2412,7 @@
     <option name="height" value="741" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -2518,9 +2437,7 @@
             </path>
             <path>
               <item name="Ecommer2" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
@@ -2674,12 +2591,21 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="Android Profiler" order="7" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" weight="0.32901135" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32901135" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Build Variants" order="2" side_tool="true" />
@@ -2687,14 +2613,15 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Preview" order="3" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Logcat" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32901135" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5915721" />
+      <window_info anchor="bottom" id="Logcat" order="7" weight="0.32901135" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25377643" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.34359807" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25377643" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.34359807" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
@@ -2707,7 +2634,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2856,6 +2782,13 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+        </state>
       </provider>
     </entry>
   </component>
