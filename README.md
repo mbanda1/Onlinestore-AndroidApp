@@ -22,6 +22,8 @@ Its RealTime and First. Enjoy.
  
    
 #Screen shoots
+<a href="https://drive.google.com/file/d/1SbBOquAtJYKuH_FeQS4vDhEr7nK8bWsR/view?usp=sharing"><img src="https://drive.google.com/file/d/1SbBOquAtJYKuH_FeQS4vDhEr7nK8bWsR/view?usp=sharing" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
+
   *Initial load Screen `categories`*
 ![Alt text](https://drive.google.com/file/d/1SbBOquAtJYKuH_FeQS4vDhEr7nK8bWsR/view?usp=sharing)
 
