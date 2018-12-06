@@ -21,3 +21,25 @@ Its RealTime and First. Enjoy.
  
  
    
+#Screen shoots
+  *Initial load Screen `categories`*
+![Alt text](https://drive.google.com/file/d/1SbBOquAtJYKuH_FeQS4vDhEr7nK8bWsR/view?usp=sharing)
+
+*upon selecting a category*
+![alt text](https://drive.google.com/file/d/1YezxsGnSNwbFnC7nYpKFakJo7yS--xl2/view?usp=sharing)
+
+*selecting single product `details`*
+![alt text](https://drive.google.com/file/d/1emLsqtH198sf9ozUglLgZNxcDKH89P1e/view?usp=sharing)
+
+*Added to cart and quantity selected*
+![alt text](https://drive.google.com/file/d/1UqNzBb83eBIVsa2X_1L6KR2E8faA31ao/view?usp=sharing)
+
+
+*Go ahead ans select a shpping address*
+![alx text](https://drive.google.com/file/d/1uB_gFE5wGowbHXzjN9gNGEUB3f4oeeTS/view?usp=sharing)
+
+*shipping address selected hecnce proceed to payment*
+![alt text](https://drive.google.com/file/d/1PUrjGXQvzq_m_iFrbQrGiJucoH1icyM0/view?usp=sharing)
+
+*pay and BRAVO !, wait for further directions*
+![alt text](https://drive.google.com/file/d/1w1nJpkdCYgrhBk1rW1PTL7qQv3-idmap/view?usp=sharing)
