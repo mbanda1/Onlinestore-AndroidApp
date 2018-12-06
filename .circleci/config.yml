@@ -31,7 +31,10 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: gradle dependencies
+      - run: 
+          gradle dependencies
+          name: remove local settings
+          command: rm local.properties
 
       - save_cache:
           paths:
